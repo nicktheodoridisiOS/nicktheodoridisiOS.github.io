@@ -1,0 +1,210 @@
+@import url("https://use.typekit.net/zgg4tkq.css");
+
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"articulat-cf", sans-serif;
+    background-color: black;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    background-color: rgba(0,0,0);
+    position: fixed;
+    top: 0;
+    padding: 25px 35px;
+    font-size: medium;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 140px;
+}
+
+ul{
+    list-style:  none;
+}
+
+li{
+    display: inline-block;
+}
+
+li a {
+    margin-left: 10px;
+}
+
+nav a{
+    color:  white;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 200;
+    font-size: 12px;
+    color: white;
+    height: 100px;
+}
+
+.contact__button{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+
+
+.hero__image{
+    width: 90px;
+    height: 90px;
+}
+
+
+.calendar__htitle{
+    font-size: 30px;
+    padding-top: 20px;
+    color:white;
+}
+
+.about__days{
+    color: white;
+    font-weight: 200;
+    font-size: 19px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.navigation__button{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-weight: 500;
+    color: #007AFF;
+    text-decoration: none;
+}
+
+.days__image{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 500px;
+}
+
+
+.calendar__week{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 50px;
+}
+
+.week__image{
+    width: 200px;
+}
+
+.footer__content{
+    padding-top: 16px;
+}
+
+.footer__link{
+    color: white;
+}
+
+
+@media screen and (min-width: 992px) {
+
+    nav a{
+        margin-left: 300px;
+        font-size: 20px;
+        color:  white;
+        letter-spacing: 1px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+    nav ul{
+        margin-right: 280px;
+    }
+
+    .hero{
+        line-height: 300px;
+    }
+
+  
+  
+
+    .calendar__htitle{
+        font-size: 50px;
+        padding-top: 50px;
+        color:white;
+    }
+    
+    .about__days{
+        color:white;
+        font-size: 30px;
+        padding-top:20px;
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-bottom: 50px;
+    }
+    
+    .navigation__button{
+        padding-top: 30px;
+        padding-bottom: 50px;
+        font-size: 30px;
+        font-weight: 500;
+        color: #007AFF;
+        text-decoration: none;
+    }
+    
+    .calendar__week{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding-top: 50px;
+    }
+    
+    .week__image{
+        width: 300px;
+    }
+
+    .days__image{
+        padding-top: 50px;
+        padding-bottom: 40px;
+        width: 1000px;
+    }
+
+}
+
+
+
+
