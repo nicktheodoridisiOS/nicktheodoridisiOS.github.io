@@ -1,9 +1,6 @@
 @import url("https://use.typekit.net/zgg4tkq.css");
 
 
-@import url("https://use.typekit.net/zgg4tkq.css");
-
-
 *,
 *:before,
 *:after{
@@ -144,13 +141,13 @@ a{
     padding-top: 80px;
     color: white;
     font-weight: 800;
-    font-size: 45px;
+    font-size: 40px;
     padding-left: 40px;
     padding-bottom: 20px;
     padding-right: 40px;
 }
 .days__image{
-    width: 500px;
+    width: 370px;
 
 }
 
