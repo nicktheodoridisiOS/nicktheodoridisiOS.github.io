@@ -141,13 +141,11 @@ a{
     padding-top: 80px;
     color: white;
     font-weight: 800;
-    font-size: 35px;
-    padding-left: 40px;
-    padding-bottom: 20px;
-    padding-right: 40px;
+    font-size: 33px;
+    padding-bottom: 10px;
 }
 .days__image{
-    width: 370px;
+    width: 350px;
 
 }
 
